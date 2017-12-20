@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "summary": "New improved colors to use in web prototyping or everyday use",
+    "repository": "https://github.com/ghivert/elm-colors.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "Colors"
+    ],
+    "dependencies": {
+        "elm-lang/core": "5.1.1 <= v < 6.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}
