@@ -24,6 +24,7 @@ This package provides real colors, not strings, making them easy to manipulate i
 @docs black
 @docs gray
 @docs silver
+@docs white
 
 -}
 
@@ -108,3 +109,8 @@ gray =
 silver : Color
 silver =
   Color.rgb 221 221 221
+
+{-| White is defined as `Color.rgb 255 255 255` and its hex representation is `#FFFFFF`. -}
+white : Color
+white =
+  Color.rgb 255 255 255
